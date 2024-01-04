@@ -1,0 +1,6 @@
+<h1>Inside App Component: App</h1>
+<h2>Enter Your Message:</h2>
+<input #myText type="text">
+<button (click)="showLen(myText.value)">show Length</button>
+<h1>{{len}}</h1>
+<router-outlet></router-outlet>
